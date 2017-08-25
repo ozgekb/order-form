@@ -4,16 +4,13 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet">
+
+
   </head>
   <body>
-    <h1>Bus Mall Marketplace</h1>
-    <h2>Buy this stuff because you can, not because you need to!<h2>
-    <form id ="orderForm" >
+    <form id ="orderForm">
       <select name ="dropdown" id ="product-dropdown">
-        <option value=""disabled selected>Select your merchandise here!</option>
-        <option value="bag.jpg">Luggage</option>
+        <option value="bag.jpg">Lugguage</option>
         <option value="banana.jpg">Banana Slicer</option>
         <option value="bathroom.jpg">Ipad holder with toilet paper dispenser</option>
         <option value="boots.jpg">Boots</option>
@@ -34,9 +31,9 @@
         <option value="waterCan.jpg">Water can </option>
         <option value="wineGlass.jpg">Wine glass</option>
       </select>
-<div class="table-style"
+
       <tr>
-        <td><label for="productQuantity">Qty:</label></td>
+        <td><label for="productQuantity">Please enter quantity:</label></td>
         <td><input type="number" name="productQuantity" class="productQuantity" min="0" required/></td>
       </tr>
     <table>
@@ -45,11 +42,11 @@
         <td><input type="text" name="name" class="creditCard" required/></td>
       </tr>
       <tr>
-        <td><label for="street">Street:</label></td>
+        <td><label for="street">Street: </label></td>
         <td><input type="text" name="street" class="creditCard"  required/></td>
       </tr>
       <tr>
-        <td><label for="city">City:</label></td>
+        <td><label for="city">City: </label></td>
         <td><input type="text" name="city" class="creditCard" required/></td>
       </tr>
 
@@ -69,9 +66,9 @@
         <td><label for="creditCardNumber">Credit Card Number:</label></td>
         <td><input type="number" name="creditCardNumber" class="creditCard" maxlength="9" required/></td>
       </tr>
-    </div>
+      <td></td>
       <tr>
-        <td>
+        <td style="text-align: left;">
           <input type="submit" value="Add to cart" id="submit-button" />
         </td>
       </tr>
