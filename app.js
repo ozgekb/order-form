@@ -39,6 +39,8 @@ function processForm(event){
   addToCart(newProduct);
   var form = document.getElementById('orderForm');
   form.reset();
+  window.location.href = "cart.html";
+
 }
 
 
