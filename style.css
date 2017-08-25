@@ -1,0 +1,42 @@
+<<<<<<< HEAD
+table{
+
+}
+td{
+  min-width:400px;
+  font-weight: bold;
+
+}
+img {
+  max-width:200px;
+=======
+body {
+  background-image: url(http://warpedwales.co.uk/wp-content/uploads/2016/04/chav-bus.jpg);
+}
+h1 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 50px;
+  text-align: center;
+  background-color: rgba(68, 207, 159, 0.8);
+  margin-left: 25%;
+  margin-right: 25%;
+}
+h2 {
+  font-family: 'Shrikhand', cursive;
+  background-color: rgba(68, 207, 159, 0.8);
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.table-style {
+  font-family: 'Contrail One', cursive;
+  background-color: rgba(68, 207, 159, 0.8);
+}
+#submit-button {
+  padding: 5px 15px;
+    background: #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+>>>>>>> e66d12d5c941aa656b055787dddfeb0b007bf89a
+}
